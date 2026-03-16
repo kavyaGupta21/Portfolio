@@ -17,7 +17,7 @@ const Projects = () => {
         "Express.js",
       ],
       icon: Bot,
-      link: null,
+      link: "https://ai-virtual-assistant-zim2.vercel.app",
     },
     {
       title: "Real-Time Chat App",
