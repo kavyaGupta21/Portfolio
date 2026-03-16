@@ -43,7 +43,7 @@ const Projects = () => {
         "An interactive Whack-a-Mole game built using vanilla JavaScript, HTML, and CSS.",
       techStack: ["HTML", "CSS", "JavaScript"],
       icon: Gamepad2,
-      link: null,
+      link: "https://mole-game-rosy.vercel.app",
     },
     {
       title: "ShakeScape",
