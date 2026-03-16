@@ -96,7 +96,16 @@ const Projects = () => {
                   </div>
 
                   {project.link && (
-                    <ExternalLink className="text-cyan-400" size={20} />
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <ExternalLink
+                        className="text-cyan-400 hover:text-white transition-colors"
+                        size={20}
+                      />
+                    </a>
                   )}
                 </div>
 
